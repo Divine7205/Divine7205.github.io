@@ -6,30 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adegoke Divine | Portfolio</title>
 	<link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+    	href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    	rel="stylesheet"
+	/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <div class="nav_container">
+        <div class="navbar">
             <div class="logo">
                 <a href="#">Adegoke Divine</a>
-                <label for="check" class="checkbox">
-                    <i class="ri-menu-line"></i>
-                </label>
-            </div>
+			</div>
+			<label for="check" class="checkbox">
+				<i class="ri-menu-line"></i>
+			</label>
+			<input type="checkbox" name="check" id="check">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+            
         </div>
     </nav>
-    <header>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <section id="about">
+
+	<section class="section">
+		<div class="container">
+			<div class="content">
+				<p class="subtitle">
+					Hello
+				</p>
+				<h1 class="title">
+					I'm <span>Adegoke Divine <br>a </span> Full Stack Developer
+				</h1>
+				<p class="description">
+					Graduate in IT & Software Engineering with a solid grounding in Java and Python, and a keen interest in building intuitive web and mobile applications. Known for strong problem-solving abilities and a sharp eye for detail. Developed several personal projects including a weather app and a car booking platform, demonstrating practical experience across both front-end and back-end development.
+				</p>
+				<div class="action_btns">
+					<button class="hire_me">Hire Me</button>
+					<button class="portfolio">Portfolio</button>
+				</div>
+			</div>
+			<div class="image">
+				<img src="assets/profile.jpeg" alt="profile">
+			</div>
+		</div>
+		
+	</section>
+	<section class="section" id="projects">
+		<div class="contain">
+			<h2 class="section_title">Projects</h2>
+			<div class="projects_grid">
+				<div class="project_card">
+					<h3 class="project_title">Project 1</h3>
+					<p class="project_description">Description</p>
+				</div>
+				<div class="project_card">
+					<h3 class="project_title">Project 2</h3>
+					<p class="project_description">Description</p>
+				</div>
+				<div class="project_card">
+					<h3 class="project_title">Project 3</h3>
+					<p class="project_description">Description</p>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- <section id="about">
         <h2>About Divine</h2>
         <div>
             <section id="picture"><img src="profile.jpeg" alt="profile picture"></section>
@@ -52,6 +96,6 @@
         <p>Email: adegokedivine1@gmail.com</p>
         <p>Phone no: +44 788 117 3701</p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/divineadegoke">https://www.linkedin.com/in/divineadegoke</a></p>
-    </section>
+    </section> -->
 </body>
 </html>
